@@ -1,0 +1,87 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif, Times, serif;
+	font-size: large;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'merah hijau hijau ungu ungu'
+		'merah pink hijauMuda hijauMuda hijauMuda'
+		'merah pink biru biruTua biruTua'
+		'jingga pink biru biruTua biruTua'
+		'jingga kuning kuning biruTua biruTua'
+		'jingga kuning kuning biruTua biruTua';
+	height: calc(100vh);
+}
+
+.items-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.item1 {
+	grid-area: merah;
+}
+.item2 {
+	grid-area: hijau;
+}
+.item3 {
+	grid-area: ungu;
+}
+.item4 {
+	grid-area: pink;
+}
+.item5 {
+	grid-area: hijauMuda;
+}
+.item6 {
+	grid-area: biru;
+}
+.item7 {
+	grid-area: jingga;
+}
+.item8 {
+	grid-area: kuning;
+}
+.item9 {
+	grid-area: biruTua;
+}
+
+.text-center {
+	align-self: center;
+	justify-self: center;
+}
+
+.text-yellow {
+	color: #f3e700;
+}
+
+.bg-yellow-1 {
+	background-color: #ffff00;
+}
+.bg-yellow-2 {
+	background-color: #ffc800;
+}
+.bg-yellow-3 {
+	background-color: #fed849;
+}
+.bg-pink-1 {
+	background-color: #ff9fd5;
+}
+.bg-pink-2 {
+	background-color: #e06666;
+}
+.bg-purple {
+	background-color: #8e7cc3;
+}
+.bg-green {
+	background-color: #00a15d;
+}
+.bg-blue {
+	background-color: #3d85c6;
+}
