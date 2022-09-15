@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.planet-container {
+	position: relative;
+	height: calc(100vh);
+	overflow: hidden;
+}
+
+.planet {
+	position: absolute;
+}
+
+#cat-rocket {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	bottom: 100px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 999;
+}
+
+#rocket {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	bottom: -100px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 999;
+}
+
+#planet1,
+#planet2,
+#planet3,
+#planet4,
+#planet5,
+#planet6,
+#planet7,
+#planet8,
+#planet9,
+#planet10,
+#planet11,
+#planet12,
+#planet13,
+#planet14 {
+	width: 200px;
+	height: 200px;
+}
+
+#planet15,
+#planet16,
+#planet17,
+#planet18 {
+	width: 650px;
+	height: 400px;
+}
+/* end position */
